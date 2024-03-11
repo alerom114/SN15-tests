@@ -7,6 +7,7 @@ def login(request):
     password = request.cls.password
     print(f"Logging in with username: {username} and password: {password}")
 
-    def logout():
-        print("Logging out...")
+def logout():
+    print("Logging out...")
+    
     request.addfinalizer(logout)
