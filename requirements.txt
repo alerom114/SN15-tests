@@ -1,0 +1,4 @@
+pytest
+jwt
+python-jose
+django
